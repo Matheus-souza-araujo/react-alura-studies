@@ -1,8 +1,9 @@
-import Button from './components/Button';
+import Form from './components/form';
+
 function App() {
   return (
     <div className="App">
-      <Button></Button>
+      <Form></Form>
     </div>
   );
 }
