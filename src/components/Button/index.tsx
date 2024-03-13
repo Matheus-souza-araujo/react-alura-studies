@@ -1,4 +1,6 @@
 import React from "react";
+import './style.scss'
+
 
 export default class Button extends React.Component {
   render(): React.ReactNode {
@@ -7,7 +9,7 @@ export default class Button extends React.Component {
       backgroundColor: isActive ? "green" : "red"
     }
     return (
-      <button style={styles}>
+      <button className="botao">
         Botão
       </button>
     )
